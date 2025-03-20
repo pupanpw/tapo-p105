@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  flask-app:
+    build: .
+    container_name: flask-app
+    network_mode: "host"
+    volumes:
+      - .:/app
+    environment:
+      - KASA_USERNAME=${KASA_USERNAME}
+      - KASA_PASSWORD=${KASA_PASSWORD}
