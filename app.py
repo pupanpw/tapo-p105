@@ -15,7 +15,6 @@ PASSWORD = os.getenv("KASA_PASSWORD")
 async def get_device():
     """ ค้นหาอุปกรณ์ Kasa ที่อยู่ในเครือข่าย """
     try:
-        print(USERNAME, "user")
         devices = await Discover.discover(
             username=USERNAME,
             password=PASSWORD,
