@@ -27,9 +27,9 @@ pycparser==2.22
 pycryptodome==3.22.0
 pydantic==2.10.6
 pydantic_core==2.27.2
-pytapo==3.3.42
+pytapo==3.3.38
 python-dotenv==1.0.1
-python-kasa==0.7.7
+python-kasa==0.10.2
 requests==2.32.3
 rtp==0.0.4
 sniffio==1.3.1
