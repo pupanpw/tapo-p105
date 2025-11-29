@@ -25,8 +25,8 @@ multidict==6.2.0
 propcache==0.3.0
 pycparser==2.22
 pycryptodome==3.22.0
-pydantic==2.10.6
-pydantic_core==2.27.2
+pydantic
+pydantic_core
 pytapo==3.3.38
 python-dotenv==1.0.1
 python-kasa==0.10.2
