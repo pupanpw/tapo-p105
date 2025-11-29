@@ -3,3 +3,4 @@ venv
 .env
 env
 __pycache__/app.cpython-313.pyc
+sonar-project
